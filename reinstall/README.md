@@ -1,0 +1,1 @@
+This folder consists of my bash scripts to automate some tasks i want to do with my Ubuntu whenever I reinstall it.
