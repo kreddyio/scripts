@@ -1,3 +1,6 @@
+#This file is only for my computer settings. Please change the settings accordingly for your computer.
+#AUTHOR:Kishan Reddy
+#EMAIL:kishanreddy.kethu@gmail.com
 #Here start the windows entries
 #OS
 UUID=5C70B4EA70B4CC50   /home/kishan/windows/OS   auto    rw,user,auto    0    0

@@ -1,0 +1,1 @@
+This folder consists of bash scripts I have written to make my life easier while using Ubuntu.
