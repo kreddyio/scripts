@@ -14,6 +14,7 @@ git config --global color.status "auto"
 git config --global color.branch "auto"
 git config --global color.interactive "auto"
 git config --global color.diff "auto"
+git config --global push.default simple
 sudo apt-get install valgrind -y
 sudo apt-get install linuxdcpp -y
 sudo apt-get install gparted -y
