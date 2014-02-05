@@ -1,6 +1,6 @@
 <<COMMENT
 DESCRIPTION: This bash script is useful whenever I reinstall Ubuntu in my system for installing my favourite softwares 
-without bothering to type 'y' and 'ENTER' at every prompt.So, I can just sit back and watch movie or something while 
+without bothering to type 'y' and 'ENTER' at every prompt.So, I can just sit back and watch a movie or something while 
 things get going.
 AUTHOR: Kethu Harikishan Reddy
 EMAIL: kishanreddy.kethu@gmail.com
@@ -32,9 +32,14 @@ nautilus -q
 sudo apt-get install sublime-text-installer
 sudo apt-get install google-chrome-stable -y
 sudo apt-get install ap-hotspot -y
-sudo apt-get upgrade
 sudo apt-get install boot-repair -y
 sudo apt-get install jupiter
+sudo apt-get install nmap -y --force-yes
+sudo apt-get install putty -y --force-yes
+sudo apt-get install ruby-full rubygems -y --forceyes
+sudo gem install rhc
+rhc setup
+sudo apt-get upgrade
 su -c "cat fstabentry.txt >> /etc/fstab;subl /etc/fstab"
 echo "Opening the grub file please change linux default to quiet splash acpi_backlight=vendor"
 su -c "subl /etc/default/grub"
