@@ -43,7 +43,7 @@ wget http://fpdownload.macromedia.com/get/flashplayer/pdc/11.2.202.336/install_f
 tar -xzvf install_flash_player_11_linux.x86_64.tar.gz
 sudo cp -r usr/* /usr/
 sudo cp libflashplayer.so /usr/lib/mozilla/plugins/
-rm -rf usr libflashplayer.so
+rm -rf usr libflashplayer.so readme.txt
 sudo apt-get upgrade
 su -c "cat fstabentry.txt >> /etc/fstab;subl /etc/fstab"
 echo "Opening the grub file please change linux default to quiet splash acpi_backlight=vendor"
