@@ -1,5 +1,5 @@
 <<COMMENT
-DESCRIPTION: This bash script is useful whenever I reinstall Ubuntu in my system for installing my favourite softwares 
+DESCRIPTION: This bash script is useful whenever I reinstall Ubuntu(13.04 64-bit) in my system for installing my favourite softwares 
 without bothering to type 'y' and 'ENTER' at every prompt.So, I can just sit back and watch a movie or something while 
 things get going.
 AUTHOR: Kethu Harikishan Reddy
@@ -39,6 +39,11 @@ sudo apt-get install putty -y --force-yes
 sudo apt-get install ruby-full rubygems -y --forceyes
 sudo gem install rhc
 rhc setup
+wget http://fpdownload.macromedia.com/get/flashplayer/pdc/11.2.202.336/install_flash_player_11_linux.x86_64.tar.gz
+tar -xzvf install_flash_player_11_linux.x86_64.tar.gz
+sudo cp -r usr/* /usr/
+sudo cp libflashplayer.so /usr/lib/mozilla/plugins/
+rm -rf usr libflashplayer.so
 sudo apt-get upgrade
 su -c "cat fstabentry.txt >> /etc/fstab;subl /etc/fstab"
 echo "Opening the grub file please change linux default to quiet splash acpi_backlight=vendor"
