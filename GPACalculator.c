@@ -1,3 +1,8 @@
+/*
+DESCRIPTION: This is a program to calculate my GPA in my semester.
+AUTHOR: Kethu Harikishan Reddy
+EMAIL: kishanreddy.kethu@gmail.com
+*/
 #include <stdio.h>
 typedef struct course
 {
