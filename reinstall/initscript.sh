@@ -26,6 +26,7 @@ sudo sh -c 'echo "deb http://dl.google.com/linux/chrome/deb/ stable main" >> /et
 sudo add-apt-repository -y ppa:nilarimogard/webupd8
 sudo add-apt-repository ppa:yannubuntu/boot-repair -y
 sudo add-apt-repository ppa:jolicloud-team/ppa
+sudo add-apt-repository ppa:upubuntu-com/network -y
 sudo apt-get update
 sudo apt-get install nautilus-open-terminal
 nautilus -q
@@ -37,6 +38,8 @@ sudo apt-get install jupiter
 sudo apt-get install nmap -y --force-yes
 sudo apt-get install putty -y --force-yes
 sudo apt-get install ruby-full rubygems -y --forceyes
+sudo apt-get install ipscan -y
+sudo apt-get install calibre --force-yes
 sudo gem install rhc
 rhc setup
 wget http://fpdownload.macromedia.com/get/flashplayer/pdc/11.2.202.336/install_flash_player_11_linux.x86_64.tar.gz
