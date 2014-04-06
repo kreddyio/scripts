@@ -28,6 +28,7 @@ sudo add-apt-repository -y ppa:nilarimogard/webupd8
 sudo add-apt-repository ppa:yannubuntu/boot-repair -y
 sudo add-apt-repository ppa:jolicloud-team/ppa
 sudo add-apt-repository ppa:upubuntu-com/network -y
+sudo add-apt-repository ppa:nightingaleteam/nightingale-release -y
 sudo apt-get update
 sudo apt-get install nautilus-open-terminal
 nautilus -q
