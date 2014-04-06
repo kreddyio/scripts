@@ -43,6 +43,7 @@ sudo apt-get install ruby-full rubygems -y --forceyes
 sudo apt-get install ipscan -y
 sudo apt-get install calibre --force-yes
 sudo apt-get install nightingale -y
+sudo apt-get install bridge-utils
 sudo gem install rhc
 rhc setup
 wget http://fpdownload.macromedia.com/get/flashplayer/pdc/11.2.202.336/install_flash_player_11_linux.x86_64.tar.gz
