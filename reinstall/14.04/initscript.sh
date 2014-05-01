@@ -12,6 +12,8 @@ git config --global user.email "kishanreddy.kethu@gmail.com"
 git config --global core.editor subl
 git config --global color.status "auto"
 git config --global color.branch "auto"
+git config --global credential.helper cache
+git config --global credential.helper "cache --timeout=3600"
 git config --global color.interactive "auto"
 git config --global color.diff "auto"
 git config --global push.default simple
