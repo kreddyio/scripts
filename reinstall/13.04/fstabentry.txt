@@ -1,0 +1,12 @@
+#This file is only for my computer settings. Please change the settings accordingly for your computer.
+#AUTHOR:Kishan Reddy
+#EMAIL:kishanreddy.kethu@gmail.com
+#Here start the windows entries
+#OS
+UUID=5C70B4EA70B4CC50   /home/kishan/windows/OS   auto    rw,user,auto    0    0
+#Games and Geek stuff
+UUID=14B8CCDEB8CCC00A  /home/kishan/windows/GamesandGeekStuff   auto    rw,user,auto    0    0
+#Entertainment
+UUID=4440E1C740E1C032 /home/kishan/windows/Entertainment   auto    rw,user,auto    0    0
+#Studies
+UUID=CE58A08E58A0773D /home/kishan/windows/Studies   auto    rw,user,auto    0    0
