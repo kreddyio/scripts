@@ -5,6 +5,11 @@ things get going.
 AUTHOR: Kethu Harikishan Reddy
 EMAIL: kishanreddy.kethu@gmail.com
 COMMENT
+cd ~
+mkdir Windows
+cd Windows
+mkdir OS GamesandGeekStuff Entertainment Studies
+cd ~
 sudo apt-get install vlc
 sudo apt-get install git-core -y
 git config --global user.name "Kishan Reddy"
