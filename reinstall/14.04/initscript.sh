@@ -52,8 +52,9 @@ sudo apt-get install bridge-utils
 sudo apt-get install vlan
 sudo apt-get install gstreamer0.10 -y
 sudo apt-get install python-pip
-sudo gem install rhc
+sudo apt-get install python-scapy
 sudo apt-get install grub-customizer
+sudo gem install rhc
 rhc setup
 wget http://fpdownload.macromedia.com/get/flashplayer/pdc/11.2.202.336/install_flash_player_11_linux.x86_64.tar.gz
 tar -xzvf install_flash_player_11_linux.x86_64.tar.gz
