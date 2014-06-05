@@ -30,6 +30,7 @@ sudo add-apt-repository -y ppa:nilarimogard/webupd8
 sudo add-apt-repository ppa:yannubuntu/boot-repair -y
 sudo sh -c "sed -i 's/trusty/saucy/g' /etc/apt/sources.list.d/yannubuntu-boot-repair-trusty.list"
 sudo add-apt-repository ppa:nightingaleteam/nightingale-release -y
+sudo add-apt-repository ppa:adabbas/1stppa
 sudo apt-get update
 sudo apt-get install nautilus-open-terminal
 nautilus -q
@@ -46,6 +47,7 @@ sudo apt-get install bridge-utils
 sudo apt-get install vlan
 sudo apt-get install gstreamer0.10 -y
 sudo gem install rhc
+sudo apt-get install grub-customizer
 rhc setup
 wget http://fpdownload.macromedia.com/get/flashplayer/pdc/11.2.202.336/install_flash_player_11_linux.x86_64.tar.gz
 tar -xzvf install_flash_player_11_linux.x86_64.tar.gz
