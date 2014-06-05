@@ -51,6 +51,7 @@ sudo apt-get install nightingale -y
 sudo apt-get install bridge-utils
 sudo apt-get install vlan
 sudo apt-get install gstreamer0.10 -y
+sudo apt-get install python-pip
 sudo gem install rhc
 sudo apt-get install grub-customizer
 rhc setup
