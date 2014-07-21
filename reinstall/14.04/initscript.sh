@@ -53,6 +53,7 @@ sudo apt-get install vlan
 sudo apt-get install gstreamer0.10 -y
 sudo apt-get install python-pip
 sudo apt-get install python-scapy
+sudo apt-get install python-mysqldb
 sudo apt-get install grub-customizer
 sudo gem install rhc
 rhc setup
