@@ -22,6 +22,7 @@ git config --global credential.helper "cache --timeout=3600"
 git config --global color.interactive "auto"
 git config --global color.diff "auto"
 git config --global push.default simple
+git config --global core.autocrlf input
 synclient HorizTwoFingerScroll=1
 sudo apt-get install valgrind -y
 sudo apt-get install linuxdcpp -y
