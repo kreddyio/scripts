@@ -41,6 +41,7 @@ sudo sh -c 'echo "deb http://repository.spotify.com stable non-free" >> /etc/apt
 sudo apt-key adv --keyserver keyserver.ubuntu.com --recv-keys 94558F59
 wget -q -O – http://archive.getdeb.net/getdeb-archive.key | sudo apt-key add –
 sudo sh -c 'echo deb http://archive.getdeb.net/ubuntu $(lsb_release -sc)-getdeb apps >> /etc/apt/sources.list.d/getdeb.list'
+sudo sh -c 'cat hibernate.txt >> /var/lib/polkit-1/localauthority/50-local.d/com.ubuntu.enable-hibernate.pkla'
 sudo apt-get update
 sudo apt-get install nautilus-open-terminal
 nautilus -q
