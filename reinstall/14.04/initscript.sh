@@ -39,6 +39,8 @@ sudo add-apt-repository ppa:nightingaleteam/nightingale-release -y
 sudo add-apt-repository ppa:adabbas/1stppa
 sudo sh -c 'echo "deb http://repository.spotify.com stable non-free" >> /etc/apt/sources.list.d/spotify.list'
 sudo apt-key adv --keyserver keyserver.ubuntu.com --recv-keys 94558F59
+wget -q -O – http://archive.getdeb.net/getdeb-archive.key | sudo apt-key add –
+sudo sh -c 'echo deb http://archive.getdeb.net/ubuntu $(lsb_release -sc)-getdeb apps >> /etc/apt/sources.list.d/getdeb.list'
 sudo apt-get update
 sudo apt-get install nautilus-open-terminal
 nautilus -q
@@ -60,7 +62,8 @@ sudo apt-get install python-mysqldb
 sudo apt-get install grub-customizer
 sudo apt-get install spotify-client -y
 sudo apt-get install tsocks -y
-sudo apt-get isntall eclipse -y
+sudo apt-get install eclipse -y
+sudo apt-get install pycharm
 sudo gem install rhc
 rhc setup
 wget http://fpdownload.macromedia.com/get/flashplayer/pdc/11.2.202.336/install_flash_player_11_linux.x86_64.tar.gz
