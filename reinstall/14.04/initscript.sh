@@ -60,6 +60,7 @@ sudo apt-get install python-mysqldb
 sudo apt-get install grub-customizer
 sudo apt-get install spotify-client -y
 sudo apt-get install tsocks -y
+sudo apt-get isntall eclipse -y
 sudo gem install rhc
 rhc setup
 wget http://fpdownload.macromedia.com/get/flashplayer/pdc/11.2.202.336/install_flash_player_11_linux.x86_64.tar.gz
