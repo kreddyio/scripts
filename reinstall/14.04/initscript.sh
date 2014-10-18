@@ -27,11 +27,11 @@ synclient HorizTwoFingerScroll=1
 sudo apt-get install valgrind -y
 sudo apt-get install linuxdcpp -y
 sudo apt-get install gparted -y
-sudo apt-get install curl
-sudo add-apt-repository -y ppa:nae-team/ppa
+sudo apt-get install curl -y
+sudo add-apt-repository -y ppa:nae-team/ppa 
 sudo add-apt-repository -y ppa:webupd8team/sublime-text-3
 wget -q -O - https://dl-ssl.google.com/linux/linux_signing_key.pub |sudo apt-key add -
-sudo sh -c 'echo "deb http://dl.google.com/linux/chrome/deb/ stable main" >> /etc/apt/sources.list.d/google-chrome.list'\
+sudo sh -c 'echo "deb http://dl.google.com/linux/chrome/deb/ stable main" >> /etc/apt/sources.list.d/google-chrome.list'
 sudo add-apt-repository -y ppa:nilarimogard/webupd8
 sudo add-apt-repository ppa:yannubuntu/boot-repair -y
 sudo sh -c "sed -i 's/trusty/saucy/g' /etc/apt/sources.list.d/yannubuntu-boot-repair-trusty.list"
@@ -64,6 +64,7 @@ sudo apt-get install grub-customizer
 sudo apt-get install spotify-client -y
 sudo apt-get install tsocks -y
 sudo apt-get install eclipse -y
+sudo apt-get install macchanger macchanger-gtk -y
 sudo apt-get install pycharm
 sudo gem install rhc
 rhc setup
