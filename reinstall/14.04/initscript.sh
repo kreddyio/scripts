@@ -67,6 +67,7 @@ sudo apt-get install eclipse -y
 sudo apt-get install macchanger macchanger-gtk -y
 sudo apt-get install pycharm
 sudo gem install rhc
+sudo apt-get install sl figlet xcowsay oneko fortune
 rhc setup
 wget http://fpdownload.macromedia.com/get/flashplayer/pdc/11.2.202.336/install_flash_player_11_linux.x86_64.tar.gz
 tar -xzvf install_flash_player_11_linux.x86_64.tar.gz
