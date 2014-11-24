@@ -66,6 +66,7 @@ sudo apt-get install tsocks -y
 sudo apt-get install eclipse -y
 sudo apt-get install macchanger macchanger-gtk -y
 sudo apt-get install pycharm
+sudo apt-get install python-dev
 sudo gem install rhc
 sudo apt-get install sl figlet xcowsay oneko fortune
 rhc setup
