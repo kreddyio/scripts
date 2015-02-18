@@ -67,6 +67,11 @@ sudo apt-get install eclipse -y
 sudo apt-get install macchanger macchanger-gtk -y
 sudo apt-get install pycharm
 sudo apt-get install python-dev
+sudo apt-get install vim
+sudo apt-get install gimp
+sudo apt-get install terminator
+sudo apt-get install ekiga
+sudo apt-get install openvpn
 sudo gem install rhc
 sudo apt-get install sl figlet xcowsay oneko fortune
 rhc setup
@@ -75,10 +80,6 @@ tar -xzvf install_flash_player_11_linux.x86_64.tar.gz
 sudo cp -r usr/* /usr/
 sudo cp libflashplayer.so /usr/lib/mozilla/plugins/
 rm -rf usr libflashplayer.so readme.txt
-wget http://download-new.utorrent.com/endpoint/utserver/os/linux-x64-ubuntu-13-04/track/beta/ -O utserver.tar.gz
-sudo tar -zxvf utserver.tar.gz -C /opt/
-sudo chmod 777 /opt/utorrent-server-alpha-v3_3/
-sudo ln -s /opt/utorrent-server-alpha-v3_3/utserver /usr/bin/utserver
 
 sudo apt-get upgrade
 su -c "cat fstabentry.txt >> /etc/fstab;subl /etc/fstab"

@@ -2,7 +2,7 @@
 #AUTHOR:Kishan Reddy
 #EMAIL:kishanreddy.kethu@gmail.com
 #Here start the windows entries
-/dev/sda2   /home/kishan/Windows/OS  auto    rw,user,uid=1000,gid=1000,auto    0   0
-/dev/sda3   /home/kishan/Windows/Entertainment  auto    rw,user,uid=1000,gid=1000,auto    0   0
-/dev/sda4   /home/kishan/Windows/GamesandGeekStuff  auto    rw,user,uid=1000,gid=1000,auto    0   0
-/dev/sda5   /home/kishan/Windows/Studies  auto    rw,user,uid=1000,gid=1000,auto    0   0
+/dev/sda2   /home/kishan/Windows/OS  auto    rw,user,exec,uid=1000,gid=1000,auto    0   0
+/dev/sda3   /home/kishan/Windows/Entertainment  auto    rw,user,exec,uid=1000,gid=1000,auto    0   0
+/dev/sda4   /home/kishan/Windows/GamesandGeekStuff  auto    rw,user,exec,uid=1000,gid=1000,auto    0   0
+/dev/sda5   /home/kishan/Windows/Studies  auto    rw,user,exec,uid=1000,gid=1000,auto    0   0
